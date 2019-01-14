@@ -204,9 +204,96 @@ footer {
 /* Media Queries */
 /* *********************** */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
+    html, body {
+        width: 98%;
+    }
     header {
         display: flex;
         flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+    
+    .logo {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    nav {
+        width: 98%;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+
+    .hero-right {
+        display: none;
+    }
+    .hero-left {
+        margin: 0 auto;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    html, body {
+        width: 100%;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .links {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border: solid black 1px;
+    }
+
+    .features-about {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .features {
+        width: 98%;
+        margin-bottom: 20px;
+    }
+    
+    .about {
+        width: 98%;
+    }
+
+    .services-product-vision {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .services {
+        width: 98%;
+        margin-bottom: 20px;
+
+    }
+    
+    .product {
+        width: 98%;
+        margin-bottom: 20px;
+    }
+    
+    .vision {
+        width: 98%;
+    }
+
+    .contact {
+        margin-left: 5%;
     }
   }
